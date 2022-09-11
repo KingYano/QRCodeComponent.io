@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #D5E1EF;
+    font-family: 'Outfit', sans-serif;
+
+    .ic-body {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .ic-card {
+            width: 250px;
+            height: 405px;
+            padding: 10px;
+            background-color: white;
+            text-align: center;
+            border-radius: 15px;
+
+            .ic-picture {
+                .i-image {
+                    height: 250px;
+                    border-radius: 15px;
+                }
+            }
+
+            .ic-paragraph {
+                padding: 0px 10px;
+                .i-title {
+                    font-size: 20px;
+                    font-weight: 700;
+
+                }
+                .i-text {
+                    font-size: 15px;
+                    font-weight: 400;
+                    color: #769ECB;
+                }
+            }
+        }
+    }
+}
